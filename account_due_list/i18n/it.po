@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_due_list
-# 
+#
 # Translators:
 # Andrea Cometa <a.cometa@apuliasoftware.it>, 2016
 # Paolo Valier, 2016
