@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_due_list
-# 
+#
 # Translators:
 # Magno <magno.costa@akretion.com.br>, 2016
 msgid ""

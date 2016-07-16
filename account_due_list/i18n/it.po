@@ -112,6 +112,11 @@ msgid "Payment Terms"
 msgstr "Termini di pagamento"
 
 #. module: account_due_list
+#: field:account.move.line,payment_term_id:0
+msgid "Payment Terms"
+msgstr ""
+
+#. module: account_due_list
 #: view:account.move.line:account_due_list.view_payments_tree
 msgid "Payments"
 msgstr "Pagamenti"
@@ -146,6 +151,11 @@ msgstr "Ammontare residuo"
 #: view:account.move.line:account_due_list.view_payments_filter
 msgid "Salesperson"
 msgstr "Commerciale"
+
+#. module: account_due_list
+#: view:account.move.line:account_due_list.view_payments_filter
+msgid "Salesperson"
+msgstr ""
 
 #. module: account_due_list
 #: view:account.move.line:account_due_list.view_payments_filter
