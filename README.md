@@ -1,6 +1,6 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/96/9.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-payment-96)
-[![Build Status](https://travis-ci.org/OCA/account-payment.svg?branch=9.0)](https://travis-ci.org/OCA/account-payment)
-[![Coverage Status](https://coveralls.io/repos/OCA/account-payment/badge.png?branch=9.0)](https://coveralls.io/r/OCA/account-payment?branch=9.0)
+[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/96/10.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-payment-96)
+[![Build Status](https://travis-ci.org/OCA/account-payment.svg?branch=10.0)](https://travis-ci.org/OCA/account-payment)
+[![Coverage Status](https://coveralls.io/repos/OCA/account-payment/badge.png?branch=10.0)](https://coveralls.io/r/OCA/account-payment?branch=10.0)
 
 Odoo account payment modules
 ============================
