@@ -42,6 +42,7 @@ Credits
 Contributors
 ------------
 
+* `Odoo Italia Network <http://www.odoo-italia.net/>`_
 * Jordi Esteve <jesteve@zikzakmedia.com>
 * Lorenzo Battistini <lorenzo.battistini@agilebg.com>
 * Alex Comba <alex.comba@agilebg.com> (OpenERP v7 port)

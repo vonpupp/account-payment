@@ -15,11 +15,12 @@
     'name': "Payments Due list",
     'version': '9.0.1.0.0',
     'category': 'Generic Modules/Payment',
-    'author': 'Odoo Community Association (OCA), '
+    'author': 'Odoo Italia Network, '
+              'Odoo Community Association (OCA), '
               'Agile Business Group, '
               'Tecnativa,'
               'Zikzakmedia SL',
-    'website': 'http://www.agilebg.com',
+    'website': 'http://www.odoo-community.org',
     'license': 'AGPL-3',
     "depends": [
         'account',
