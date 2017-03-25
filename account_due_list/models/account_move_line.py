@@ -29,9 +29,12 @@ class AccountMoveLine(models.Model):
     payment_term_id = fields.Many2one('account.payment.term',
                                       related='invoice_id.payment_term_id',
                                       string='Payment Terms')
-    stored_invoice_id = fields.Many2one(
-        comodel_name='account.invoice', compute='_compute_invoice',
-        string='Invoice', store=True)
+    stored_invoice_id = fields.Many2one('account.invoice',
+                                        compute='_compute_get_invoice',
+                                        string='Invoice', store=True)
+    invoice_user_id = fields.Many2one(
+        comodel_name='res.users', related='stored_invoice_id.user_id',
+        string="Invoice salesperson", store=True)
     maturity_residual = fields.Float(
         compute='_compute_maturity_residual', string="Residual Amount",
         store=True,
@@ -39,9 +42,10 @@ class AccountMoveLine(models.Model):
              "entry expressed in the company currency.")
 
     @api.multi
-    @api.depends('date_maturity', 'debit', 'credit', 'reconcile_id',
-                 'reconcile_partial_id', 'account_id.reconcile',
-                 'amount_currency', 'reconcile_partial_id.line_partial_ids',
+    @api.depends('date_maturity', 'debit', 'credit', 'full_reconcile_id',
+                 # 'reconcile_partial_id', removed for now FIX
+                 'account_id.reconcile',
+                 'amount_currency', 'matched_debit_ids', 'matched_credit_ids',
                  'currency_id', 'company_id.currency_id')
     def _compute_maturity_residual(self):
         """
