@@ -50,6 +50,8 @@ Contributors
 * Andrea Cometa <info@andreacometa.it> (Odoo v8 port)
 * Pedro M. Baeza <pedro.baeza@tecnativa.com>
 * Jordi Ballester <jordi.ballester@eficent.com> (Odoo v9 port)
+* Andrea Cometa (Odoo v10 port)
+* Albert De La Fuente <info@haevas.com> (Odoo v10 port)
 
 Maintainer
 ----------
