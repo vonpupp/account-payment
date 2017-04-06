@@ -48,6 +48,7 @@ Contributors
 ------------
 
 * cubells <vicent@vcubells.net>
+* Albert De La Fuente <info@haevas.com>
 
 Maintainer
 ----------
